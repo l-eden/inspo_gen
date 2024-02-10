@@ -14,7 +14,7 @@ let message = ["You"];
 
 //iterate over the object
 for (let property in inspiringWords) {
-    let optionIndex = generateRandomNum(inspiringWords[property].length);
+    let optionIndex = getRandomNum(inspiringWords[property].length);
 
     switch(property) {
         case "verbs":
